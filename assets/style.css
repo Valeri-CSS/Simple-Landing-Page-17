@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+/* responsive display none */
+
+.tablet-nav {
+    display: none;
+}
+
+.hero-content-tablet-img {
+    display: none;
+}
+
+.skatchbook-image2 {
+    display: none;
+}
+
+.skatchbook-image3 {
+    display: none;
+}
+
+.desktop-nav {
+    display: none;
+}
+
+.hero-content-desktop-img {
+    display: none;
+}
+
+.container {
+    width: 100%;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+header {
+    margin-top: 10px;
+
+}
+
+header .logo {
+    display: flex;
+    margin: 0 auto;
+}
+
+.mobile-nav-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+
+.nav-search .search {
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.nav-line {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: #DDDDDD;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.tablet-nav-list li a {
+    transition: 0.3s;
+}
+
+.tablet-nav-list li a:hover {
+    color: #7875fe;
+}
+
+
+/* Hero Style */
+
+.hero-content-text {
+    width: 287px;
+    padding-top: 49px;
+    padding-bottom: 49px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-weight: 400;
+    gap: 21px;
+}
+
+.hero-site-title {
+    font-size: 30px;
+    line-height: 30px;
+    color: #4C5866;
+}
+
+.hero-description {
+    font-size: 14px;
+    line-height: 21px;
+    color: #85859B;
+}
+
+.hero-contant .hero-button-catalog {
+    width: 144px;
+    color: #7875FE;
+    border: 1px solid #7875FE;
+    text-align: center;
+    cursor: pointer;
+    padding: 20px 0px;
+    font-size: 18px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.hero-contant .hero-button-catalog:hover {
+    background-color: #7875FE;
+    color: white;
+}
+
+/* Section Results */
+
+.results {
+    margin-bottom: 60px;
+    padding: 60px 0;
+    background-color: #EBEBEB;
+}
+
+.wrapper {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.results-top {
+    width: 290px;
+    border-top: 1px solid #C0C0C0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.results-top-contant {
+    display: flex;
+}
+
+
+.results-top-contant-image {
+    margin-right: 30px;
+}
+
+.results-top-contant-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #666666
+}
+
+.results-top-contant-description {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #85859B;
+}
+
+.results-top-contant-image-main {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.results-bottom-text {
+    display: flex;
+    font-weight: 400;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.results-bottom-text-title {
+    font-size: 24px;
+    line-height: 24px;
+    color: #666666;
+}
+
+.results-bottom-text>p {
+    font-size: 16px;
+    line-height: 27px;
+    color: #85859B;
+}
+
+/* section products */
+
+
+
+.products-content {
+    list-style-type: none;
+    font-weight: 400;
+}
+
+.products-content-description {
+    margin-bottom: 60px;
+}
+
+.products-content-description-title {
+    display: block;
+    color: #666666;
+    margin-top: 20px;
+    margin-bottom: 4px;
+    font-size: 24px;
+}
+
+.products-content-description-img {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+.products-content-description-stock {
+    display: block;
+    font-size: 14px;
+    color: #B5B5BD;
+    margin-bottom: 8px;
+}
+
+.products-content-description-text {
+    font-size: 16px;
+    color: #85859B;
+    line-height: 27px;
+}
+
+.products-content-description-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #7875FE;
+    height: 23px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.products-content-description-button:hover {
+    color: #4946b4;
+}
+
+/* section Partners */
+
+.partners {
+    background-color: #f3f0f0;
+}
+
+.partners-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(109px, 175px));
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px;
+    gap: 20px;
+}
+
+.partners-list .partner-logo img {
+    max-width: 175px;
+    border: 1px solid #C4C4C4;
+    padding: 0px 20px;
+    height: 59px;
+}
+
+/*Section Skatchbook */
+
+.skatchbook-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 60px 0;
+    font-weight: 400;
+}
+
+.skatchbook-title {
+    font-size: 24px;
+    line-height: 24px;
+    color: #666666;
+}
+
+.skatchbook-description {
+    font-size: 16px;
+    line-height: 27px;
+    margin-top: 20px;
+    color: #85859B;
+}
+
+.skatchbook-button-catalog {
+    width: 144px;
+    color: #7875FE;
+    border: 1px solid #7875FE;
+    margin-top: 15px;
+    text-align: center;
+    cursor: pointer;
+    padding: 20px 0px;
+    font-size: 18px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.skatchbook-button-catalog:hover {
+    background-color: #7875FE;
+    color: white;
+}
+
+/* footer */
+
+.footer-top {
+    background-color:
+        #4C5866;
+}
+
+.footer-top-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer-top-logo {
+    padding: 16px 0;
+    max-width: 140px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(201deg) brightness(106%) contrast(106%);
+
+}
+
+
+.social-media {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 0;
+    border-top: 1px solid #DDDDDD;
+}
+
+.social-media li a img:hover {
+    opacity: 0.5;
+    filter: brightness(0) saturate(100%) invert(36%) sepia(40%) saturate(5877%) hue-rotate(207deg) brightness(100%) contrast(100%);
+}
+
+
+.footer-bottom {
+    padding: 3px 0;
+    text-align: center;
+}
+
+.footer-bottom-content {
+    font-weight: 400;
+    font-size: 13px;
+    color: #4C5866;
+}
+
+.footer-bottom-content>span {
+    color: #BCBCBC;
+}
