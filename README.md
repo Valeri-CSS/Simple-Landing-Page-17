@@ -43,6 +43,7 @@ Live Solution at :(https://github.com/Valeri-CSS/Simple-Landing-Page-17)
 
 - Semantic HTML5 markup
 - CSS custom properties
+- Mobile-first workflow
 - Flexbox
 - Grid
 
